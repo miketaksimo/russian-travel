@@ -9,6 +9,6 @@
 Проект создан по БЭМ технологии. Сайт адаптирован под мобильные телефоны, планшеты, ноутбуки и компьютеры. Сверстан при помощи Flex, Grid технологии.  
 
 **Ссылка на сайт**
-https://miketaksimo.github.io/russian-travel/
+[https://miketaksimo.github.io/russian-travel/]
 
 Спасибо за внимание!
