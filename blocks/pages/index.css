@@ -1,0 +1,11 @@
+@import url(../../vendor/normalize.css);
+@import url(../fonts/_inter/fonts_inter.css);
+@import url(../page/page.css);
+@import url(../header/header.css);
+@import url(../lead/lead.css);
+@import url(../intro/intro.css);
+@import url(../photo-grid/photo-grid.css);
+@import url(../places/places.css);
+@import url(../place/place.css);
+@import url(../cover/cover.css);
+@import url(../footer/footer.css);

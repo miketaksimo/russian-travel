@@ -1,0 +1,11 @@
+.place__text {
+  margin-top: 0;
+  transform: translateY(-7px);
+}
+
+@media all and (max-width: 320px) {
+  .place__text {
+    max-width: 288px;
+    margin: 0 auto 0;
+  }
+}
