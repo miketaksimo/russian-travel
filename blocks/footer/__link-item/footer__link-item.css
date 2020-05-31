@@ -2,6 +2,12 @@
   margin-right: 18px;
 }
 
+@media (min-width: 321px) and (max-width: 519px) {
+  .footer__link-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
 @media all and (max-width: 320px) {
   .footer__link-item:not(:last-child) {
     margin-bottom: 32px;

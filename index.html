@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествия по России</title>
-  <link rel="stylesheet" href="blocks/pages/index.css">
+  <link rel="stylesheet" href="pages/index.css">
   <meta name="author" content="Mikhail Ermachenko"> 
 </head>
 
@@ -13,8 +13,10 @@
   <div class="page">
     <header class="header">
       <div class="header__logo"></div>
-      <a class="header__lang-link header__lang-link_ru" href="#">Ru</a>
-      <a class="header__lang-link" href="#">En</a>
+      <ul class="header__list">
+        <li class="header__list-item"><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+        <li class="header__list-item"><a class="header__lang-link" href="#">En</a></li>
+      </ul>
     </header>
     <main class="content">
       <section class="lead">
@@ -27,11 +29,11 @@
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li class="intro__list-line"><span class="intro__list-warp">Часовых поясов</span> 11</li>
-          <li class="intro__list-line"><span class="intro__list-warp">Объектов природного наследия ЮНЕСКО</span> 12</li>
-          <li class="intro__list-line"><span class="intro__list-warp">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-          <li class="intro__list-line"><span class="intro__list-warp">Природных заповедников</span> 105</li>
-          <li class="intro__list-line"><span class="intro__list-warp">Аэропортов</span> 241</li>
+          <li class="intro__list-line">Часовых поясов <span class="intro__list-warp">11</span></li>
+          <li class="intro__list-line">Объектов природного наследия ЮНЕСКО <span class="intro__list-warp">12</span></li>
+          <li class="intro__list-line">Объектов культурного наследия ЮНЕСКО <span class="intro__list-warp">16</span></li>
+          <li class="intro__list-line">Природных заповедников <span class="intro__list-warp">105</span></li>
+          <li class="intro__list-line">Аэропортов <span class="intro__list-warp">241</span></li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -121,7 +123,6 @@
         </article>
       </section>
       <section class="cover">
-        <div class="cover__image"></div>
         <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="__blank">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>

@@ -20,7 +20,7 @@
 @media all and (max-width: 1024px) {
   .place {
     grid-gap: 48px 32px;
-    grid-template-columns: minmax(440px, 1fr) minmax(456px, 1fr);
+    grid-template-columns: minmax(440px, 1fr) minmax(1fr, 456px);
   }
 
   .place:not(:first-child) {
@@ -28,12 +28,20 @@
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 768px) and (min-width: 721px) {
   .place {
     grid-gap: 48px 28px;
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media (max-width: 720px) and (min-width: 321px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-gap: 48px 28px;
+  }
+}
+  
 
 @media all and (max-width: 320px) {
   .place {
