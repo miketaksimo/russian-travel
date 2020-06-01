@@ -15,6 +15,7 @@
 @media all and (max-width: 768px) {
   .footer {
     padding: 88px 24px 24px;
+  }
 }
 
 @media all and (min-width: 520px) and (max-width: 760px) {
@@ -30,7 +31,7 @@
     justify-content: start;
     flex-direction: column;
     padding: 20px auto 24px;
-    transform: translate(-100px, -40px);
+    transform: translate(-100px, 0);
   }
 }
 
