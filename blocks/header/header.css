@@ -21,7 +21,6 @@
 
 @media all and (max-width: 320px) {
   .header {
-    margin: 0;
     padding: 16px 16px 0;
   }
 }
